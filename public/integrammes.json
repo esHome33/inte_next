@@ -1,0 +1,332 @@
+[
+    {
+        "title": "Les animaux de compagnie",
+        "id": 1,
+        "categories": {
+            "A": [
+                "Alice",
+                "Bob",
+                "Clara"
+            ],
+            "B": [
+                "Chat",
+                "Chien",
+                "Lapin"
+            ],
+            "C": [
+                "Rouge",
+                "Vert",
+                "Bleu"
+            ]
+        },
+        "indices": [
+            "Le Lapin porte un collier rouge.",
+            "Alice n’a pas de chat.",
+            "Le Chien appartient à Bob.",
+            "L'animal de Clara a un collier vert.",
+            "L'animal de Clara n'est pas le Chien."
+        ],
+        "solution": [
+            "001010100",
+            "100001010",
+            "001100010"
+        ]
+    },
+    {
+        "title": "Les gâteaux préférés",
+        "id": 2,
+        "categories": {
+            "A": [
+                "Marc",
+                "Nina",
+                "Léa"
+            ],
+            "B": [
+                "Fraisier",
+                "Opéra",
+                "Tarte"
+            ],
+            "C": [
+                "Café",
+                "Thé",
+                "Lait"
+            ]
+        },
+        "indices": [
+            "Léa boit du café.",
+            "Le fan de Fraisier ne boit pas de café.",
+            "Marc n’aime pas la Tarte.",
+            "Nina boit du thé.",
+            "Celui qui aime l'Opéra boit du lait."
+        ],
+        "solution":[
+            ".........",
+            ".........",
+            "........."
+        ]
+    },
+    {
+        "title": "Les destinations de vacances",
+        "id": 3,
+        "categories": {
+            "A": [
+                "Tom",
+                "Elsa",
+                "Yann"
+            ],
+            "B": [
+                "Rome",
+                "Tokyo",
+                "Lima"
+            ],
+            "C": [
+                "Avion",
+                "Train",
+                "Bateau"
+            ]
+        },
+        "indices": [
+            "Elsa n’est pas allée à Tokyo.",
+            "Yann a pris le train.",
+            "Celui qui va à Rome prend l’avion.",
+            "Tom ne va pas à Lima.",
+            "La personne qui prend le bateau va à Tokyo."
+        ],
+        "solution": [
+            "010100001",
+            "001100010",
+            "100001010"
+        ]
+    },
+    {
+        "title": "Les plats préférés",
+        "id": 4,
+        "categories": {
+            "A": [
+                "Lucie",
+                "Hugo",
+                "Karim"
+            ],
+            "B": [
+                "Pizza",
+                "Sushi",
+                "Couscous"
+            ],
+            "C": [
+                "Lundi",
+                "Mercredi",
+                "Vendredi"
+            ]
+        },
+        "indices": [
+            "Lucie mange des sushis le mercredi.",
+            "Le couscous n’est pas mangé le lundi.",
+            "Hugo mange le plat du vendredi.",
+            "Karim n’aime pas les sushis.",
+            "La pizza est mangée le lundi."
+        ],
+        "solution": [
+            ".........",
+            ".........",
+            "........."
+        ]
+    },
+    {
+        "title": "Les animaux du zoo",
+        "id": 5,
+        "categories": {
+            "A": [
+                "Jules",
+                "Sarah",
+                "Emma"
+            ],
+            "B": [
+                "Tigre",
+                "Girafe",
+                "Ours"
+            ],
+            "C": [
+                "Nord",
+                "Sud",
+                "Est"
+            ]
+        },
+        "indices": [
+            "L’ours est dans la zone Sud.",
+            "Emma est allée voir l’animal dans la zone Est.",
+            "Jules n’a pas vu la girafe.",
+            "Sarah est allée voir le tigre.",
+            "L’animal de la zone Nord n’est pas la girafe."
+        ],
+        "solution": [
+            ".........",
+            ".........",
+            "........."
+        ]
+    },
+    {
+        "title": "Les métiers de rêve",
+        "id": 6,
+        "categories": {
+            "A": [
+                "Adam",
+                "Inès",
+                "Rami"
+            ],
+            "B": [
+                "Pompier",
+                "Médecin",
+                "Pilote"
+            ],
+            "C": [
+                "Rouge",
+                "Blanc",
+                "Bleu"
+            ]
+        },
+        "indices": [
+            "Le pompier porte du rouge.",
+            "Inès ne veut pas être médecin.",
+            "Rami veut être pilote.",
+            "Le médecin ne porte pas de bleu.",
+            "La personne en blanc n’est pas pompier."
+        ],
+        "solution": [
+            ".........",
+            ".........",
+            "........."
+        ]
+    },
+    {
+        "title": "Les instruments de musique",
+        "id": 7,
+        "categories": {
+            "A": [
+                "Zoé",
+                "Léo",
+                "Mila"
+            ],
+            "B": [
+                "Violon",
+                "Guitare",
+                "Piano"
+            ],
+            "C": [
+                "Jazz",
+                "Rock",
+                "Classique"
+            ]
+        },
+        "indices": [
+            "Le violoniste joue du classique.",
+            "Léo joue de la guitare.",
+            "Mila ne joue pas de jazz.",
+            "Zoé joue du piano.",
+            "La guitare est associée au rock."
+        ],
+        "solution": [
+            ".........",
+            ".........",
+            "........."
+        ]
+    },
+    {
+        "title": "Les animaux perdus",
+        "id": 8,
+        "categories": {
+            "A": [
+                "Yanis",
+                "Lola",
+                "Maé"
+            ],
+            "B": [
+                "Chien",
+                "Tortue",
+                "Canari"
+            ],
+            "C": [
+                "Jaune",
+                "Rose",
+                "Noir"
+            ]
+        },
+        "indices": [
+            "Le canari a un collier jaune.",
+            "Le chien appartient à Lola.",
+            "Le collier rose n’est pas sur la tortue.",
+            "Maé n’a pas d’animal à collier noir.",
+            "Yanis ne possède pas le canari."
+        ],
+        "solution": [
+            ".........",
+            ".........",
+            "........."
+        ]
+    },
+    {
+        "title": "Les lectures préférées",
+        "id": 9,
+        "categories": {
+            "A": [
+                "Ana",
+                "Karim",
+                "Julie"
+            ],
+            "B": [
+                "Science-Fiction",
+                "Policier",
+                "Fantastique"
+            ],
+            "C": [
+                "Matin",
+                "Midi",
+                "Soir"
+            ]
+        },
+        "indices": [
+            "Karim lit le soir.",
+            "La science-fiction se lit le matin.",
+            "Julie ne lit pas de fantastique.",
+            "Ana ne lit pas le matin.",
+            "Le lecteur de fantastique lit à midi."
+        ],
+        "solution": [
+            ".........",
+            ".........",
+            "........."
+        ]
+    },
+    {
+        "title": "Les sports pratiqués",
+        "id": 10,
+        "categories": {
+            "A": [
+                "Paul",
+                "Sarah",
+                "Mehdi"
+            ],
+            "B": [
+                "Natation",
+                "Foot",
+                "Tennis"
+            ],
+            "C": [
+                "Mardi",
+                "Jeudi",
+                "Samedi"
+            ]
+        },
+        "indices": [
+            "Le joueur de tennis s’entraîne le jeudi.",
+            "Sarah ne fait pas de natation.",
+            "Paul s’entraîne le samedi.",
+            "Mehdi fait du foot.",
+            "La natation n'est pas pratiquée le jeudi."
+        ],
+        "solution": [
+            ".........",
+            ".........",
+            "........."
+        ]
+    }
+]
