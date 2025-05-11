@@ -24,21 +24,29 @@ export function GrilleTable({
 	}
 
 	return (
-		<table style={{ borderCollapse: "collapse", margin: "1rem 0" }}>
+        <table style={{ borderCollapse: "collapse", margin: "0.7rem 0" }}
+            className=""
+        >
 			<thead>
 				<tr>
 					<th></th>
 					{colonnes.map((c, j) => (
-						<th key={j}>{c}</th>
+                        <th
+                            className="text-xs -rotate-45 -translate-y-1"
+                            key={j}
+                        >{c}</th>
 					))}
 				</tr>
 			</thead>
 			<tbody>
 				{lignes.map((l, i) => (
 					<tr key={i}>
-						<td>{l}</td>
+                        <td
+                            className="text-xs"
+                        >{l}</td>
 						{colonnes.map((_, j) => (
-							<td
+                            <td
+                                
 								key={j}
 								onClick={(e) => go(e, i, j)}
 								style={
