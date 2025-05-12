@@ -8,7 +8,7 @@ type Props = {
 
 const Erreurs = ({ grille, solution }: Props) => {
     const comp = comparerGrilleSolution(grille, solution)
-    console.log(comp)
+    
     let res:boolean = false
     if (comp.resolu) {
         res = true        
@@ -18,7 +18,7 @@ const Erreurs = ({ grille, solution }: Props) => {
       <div
           className={'rounded-md text-white p-2 h-fit my-auto ' + (res ? 'bg-green-500' : 'bg-red-500')}
       >
-          E
+          {res ? "✔":"E"}
       </div>
   )
 }

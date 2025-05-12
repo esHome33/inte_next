@@ -7,7 +7,7 @@ interface GrilleTableProps {
 	lignes: string[]
 	colonnes: string[]
 	data: Grille
-	onClick: (row: number, col: number, check: boolean) => void
+	onClick: (row: number, col: number) => void
 }
 
 export function GrilleTable({
@@ -18,9 +18,8 @@ export function GrilleTable({
 }: GrilleTableProps) {
 	// fonction qui détecte le bouton de la souris qui est pressé et qui lance la fonction onClick
 	const go = (e: MouseEvent, i: number, j: number) => {
-		e.preventDefault()
-		const control_actif = e.ctrlKey
-		onClick(i, j, !control_actif)
+		e.preventDefault()		
+		onClick(i, j)
 	}
 
 	return (

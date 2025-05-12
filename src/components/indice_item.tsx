@@ -28,10 +28,11 @@ const IndiceItem = (props: Props) => {
 			className="rounded-2xl px-2"
 		>
 			<li
-				style={{
-					textDecoration: etat ? "line-through" : "none",
-					color: etat ? "goldenrod" : "white",
-				}}
+				className={
+					etat
+						? "line-through text-orange-800 dark:text-orange-400"
+						: "text-black dark:text-white"
+				}
 			>
 				🔹{indice}
 			</li>

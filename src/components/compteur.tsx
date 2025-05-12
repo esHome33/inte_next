@@ -1,20 +1,32 @@
-export default function Compteur(params: { nb: number }) {
+
+type Props = {
+    nb: number
+    win?: boolean
+    nb_err: number
+}
+
+export default function Compteur({nb, win, nb_err}: Props) {
     return (
         <div
-            style={{
-                border: "1px solid black",
-                padding: "0.6rem",
-                marginLeft: "5rem",
-                borderRadius: "1rem",
-                backgroundColor: "hsl(200, 70%, 40%)",
-                color: "white",
-                height: "100%",
-            }}
+            className="bg-slate-200 dark:bg-slate-900 text-black dark:text-white p-3 rounded-md h-fit border-slate-800 border-2 shadow-amber-700 shadow text-center"
         >
-            <p>Compteur</p>
-            <p>Nombre de cases vides : {params.nb}</p>
+
+            <p>Nombre de cases vides : {nb}</p>
             {
-                params.nb === 0 && <p>Bravo, vous avez gagné !</p>
+                win &&
+                <p
+                    className="text-green-700 dark:text-green-400"
+                >
+                    Bravo, vous avez gagné !
+                </p>
+            }
+            {
+                nb_err > 0 &&
+                <p
+                    className="text-orange-500 dark:text-orange-300 font-bold"
+                >
+                    {nb_err} erreurs
+                </p>
             }
         </div>
     );

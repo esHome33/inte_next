@@ -21,10 +21,8 @@
         },
         "indices": [
             "Le Lapin porte un collier rouge.",
-            "Alice n’a pas de chat.",
             "Le Chien appartient à Bob.",
-            "L'animal de Clara a un collier vert.",
-            "L'animal de Clara n'est pas le Chien."
+            "L'animal de Clara a un collier vert."
         ],
         "solution": [
             "001010100",
@@ -60,9 +58,9 @@
             "Celui qui aime l'Opéra boit du lait."
         ],
         "solution":[
-            ".........",
-            ".........",
-            "........."
+            "010100001",
+            "001010100",
+            "001100010"
         ]
     },
     {
@@ -121,14 +119,13 @@
         "indices": [
             "Lucie mange des sushis le mercredi.",
             "Le couscous n’est pas mangé le lundi.",
-            "Hugo mange le plat du vendredi.",
-            "Karim n’aime pas les sushis.",
-            "La pizza est mangée le lundi."
+            "Hugo mange le plat du vendredi."
+            
         ],
         "solution": [
-            ".........",
-            ".........",
-            "........."
+            "010001100",
+            "010001100",
+            "100010001"
         ]
     },
     {
@@ -155,13 +152,12 @@
             "L’ours est dans la zone Sud.",
             "Emma est allée voir l’animal dans la zone Est.",
             "Jules n’a pas vu la girafe.",
-            "Sarah est allée voir le tigre.",
-            "L’animal de la zone Nord n’est pas la girafe."
+            "Sarah est allée voir le tigre."
         ],
         "solution": [
-            ".........",
-            ".........",
-            "........."
+            "001100010",
+            "010100001",
+            "100001010"
         ]
     },
     {
@@ -188,13 +184,12 @@
             "Le pompier porte du rouge.",
             "Inès ne veut pas être médecin.",
             "Rami veut être pilote.",
-            "Le médecin ne porte pas de bleu.",
-            "La personne en blanc n’est pas pompier."
+            "Le médecin ne porte pas de bleu."
         ],
         "solution": [
-            ".........",
-            ".........",
-            "........."
+            "010100001",
+            "010100001",
+            "100010001"
         ]
     },
     {
@@ -225,9 +220,9 @@
             "La guitare est associée au rock."
         ],
         "solution": [
-            ".........",
-            ".........",
-            "........."
+            "001010100",
+            "100010001",
+            "001010100"
         ]
     },
     {
@@ -254,13 +249,12 @@
             "Le canari a un collier jaune.",
             "Le chien appartient à Lola.",
             "Le collier rose n’est pas sur la tortue.",
-            "Maé n’a pas d’animal à collier noir.",
-            "Yanis ne possède pas le canari."
+            "Maé n’a pas d’animal à collier noir."
         ],
         "solution": [
-            ".........",
-            ".........",
-            "........."
+            "010100001",
+            "001010100",
+            "001100010"
         ]
     },
     {
@@ -291,9 +285,9 @@
             "Le lecteur de fantastique lit à midi."
         ],
         "solution": [
-            ".........",
-            ".........",
-            "........."
+            "001010100",
+            "010001100",
+            "100001010"
         ]
     },
     {
@@ -317,16 +311,14 @@
             ]
         },
         "indices": [
-            "Le joueur de tennis s’entraîne le jeudi.",
-            "Sarah ne fait pas de natation.",
+            "Le joueur de tennis s’entraîne le jeudi.",            
             "Paul s’entraîne le samedi.",
-            "Mehdi fait du foot.",
-            "La natation n'est pas pratiquée le jeudi."
+            "Mehdi fait du foot."
         ],
         "solution": [
-            ".........",
-            ".........",
-            "........."
+            "100001010",
+            "001010100",
+            "010001100"
         ]
     }
 ]

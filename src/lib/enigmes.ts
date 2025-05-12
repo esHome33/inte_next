@@ -37,12 +37,14 @@ const coordonnees = [
 
 export function comparerGrilleSolution(
 	grille: string[][],
-	solution: string
+	solution: string | undefined
 ): AnalyseSolution {
     const erreurs: CoordErreur[] = [];
-    let resolu = true
-    const grille_transformee = transformer(grille);
-      console.log('grille_transformee', grille_transformee)  
+    let resolu = false
+    if (solution === undefined) {
+        return { resolu, erreurs }
+    }
+    const grille_transformee = transformer(grille);      
 	for (let i = 0; i < grille_transformee.length; i++) {
 		if(grille_transformee[i] !== solution[i]){			
 			erreurs.push({
@@ -51,9 +53,7 @@ export function comparerGrilleSolution(
 			})
 		}		
 	}
-    if (erreurs.length > 0) {
-        resolu = false
-    }
+    resolu = erreurs.length === 0  
     return { resolu, erreurs }
 }
 
